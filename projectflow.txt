@@ -4,3 +4,4 @@
 is aws s3, azure, google cloud etc..
 4. The command to add the origin for s3 is 
 dvc remote -d myremote s3(in place of s3 if we add the url of real aws s3 the operations will be done on those)
+5. Every time we save the new version of data dvc will give a id which has to be tracked by git so that both git and dvc go hand in hand
