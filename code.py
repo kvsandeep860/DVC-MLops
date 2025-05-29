@@ -6,6 +6,8 @@ data={"Name":["sandeep","KV"],"Age":[22,22]}
 df=pd.DataFrame(data)
 # Adding new row into a data frame
 df.loc[len(df)] = ['Charlie', 28]
+# Adding one more row in the dataframe
+df.loc[len(df)] = ['Delta', 28]
 # Creating a data directory
 data_dir="data"
 os.makedirs(data_dir,exist_ok=True)
